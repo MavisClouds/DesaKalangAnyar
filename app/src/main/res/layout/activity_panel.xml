@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PanelActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dusunKrajan"
+        android:text="Dusun Krajan"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dusunKopencuking"
+        android:text="Dusun Kopencungking"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dusunKalibendo"
+        android:text="Dusun Kalibendo"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dusunPanggang"
+        android:text="Dusun Panggang"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dusunPejopuro"
+        android:text="Dusun Rejopuro"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+</LinearLayout>
